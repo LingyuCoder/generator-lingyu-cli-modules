@@ -1,7 +1,7 @@
 {
   "name": "generator-lingyu-cli-modules",
-  "version": "2.0.1",
-  "description": "A node modules generator of Yeoman",
+  "version": "2.0.2",
+  "description": "A cli node modules generator of Yeoman",
   "homepage": "https://github.com/LingyuCoder/generator-lingyu-cli-modules",
   "author": "LingyuCoder <lingyucoder@gmail.com> (lingyucoder.github.io)",
   "files": [

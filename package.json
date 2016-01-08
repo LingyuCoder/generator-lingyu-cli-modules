@@ -1,0 +1,32 @@
+{
+  "name": "generator-lingyu-cli-modules",
+  "version": "2.0.1",
+  "description": "A node modules generator of Yeoman",
+  "homepage": "https://github.com/LingyuCoder/generator-lingyu-cli-modules",
+  "author": "LingyuCoder <lingyucoder@gmail.com> (lingyucoder.github.io)",
+  "files": [
+    "app"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "cli-modules"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.20.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LingyuCoder/generator-lingyu-cli-modules.git",
+    "web": "https://github.com/LingyuCoder/generator-lingyu-cli-modules"
+  },
+  "bugs": {
+    "url": "https://github.com/LingyuCoder/generator-lingyu-cli-modules/issues/"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "license": "MIT"
+}

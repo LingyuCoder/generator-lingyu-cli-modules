@@ -1,0 +1,35 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/_mocha --require should --reporter spec",
+    "test-cov": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --require should",
+    "test-travis": "NODE_ENV=test node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --require should"
+  },
+  "bin": {
+    "<%= command %>": "./bin/cli"
+  },
+  "author": "<%= author %>",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "~0.4.0",
+    "mocha": "~2.3.3",
+    "mocha-sinon": "~1.1.4",
+    "should": "~7.1.1",
+    "sinon": "~1.17.2",
+    "uncolor": "^0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= author %>/<%= name %>"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/<%= author %>/<%= name %>/issues"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  }
+}
